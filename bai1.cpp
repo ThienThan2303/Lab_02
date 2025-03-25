@@ -45,8 +45,8 @@ void ngayThangNam::nhap()
         cin >> iNgay;
         if (cin.fail() || iNgay < 1 || iNgay > 31) {
             cout << "Du lieu khong hop le. Vui long nhap so nguyen!" << endl;
-            cin.clear(); // Xóa trạng thái lỗi của cin
-            cin.ignore(); // Bỏ qua dữ liệu không hợp lệ
+            cin.clear(); 
+            cin.ignore(); 
             continue;
         }
 
